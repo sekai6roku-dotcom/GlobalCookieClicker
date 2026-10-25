@@ -15,7 +15,8 @@ public class Main {
             while (true) {
                 // Wait until a player joins
                 Socket client = server.accept();
-                System.out.println("A player connected!");
+                PlayerHandler player = new PlayerHandler(client, game);
+                System.out.println("A player connected!")
             }
         } catch (Exception e) {
             System.out.println("Server error: " + e.getMessage());

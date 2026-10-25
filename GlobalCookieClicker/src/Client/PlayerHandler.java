@@ -11,5 +11,8 @@ public class PlayerHandler implements Runnable {
     private Socket playerSocket;
     private CookieClicker game;
 
-
+    public PlayerHandler(Socket socket, CookieClicker main) {
+        playerSocket = socket;
+        game = main;
+    }
 }
