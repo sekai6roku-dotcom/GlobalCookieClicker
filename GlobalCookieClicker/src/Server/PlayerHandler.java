@@ -18,6 +18,10 @@ public class PlayerHandler implements Runnable {
 
     @Override
     public void run() {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(playerSocket.getInputStream()));
+        try {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(playerSocket.getInputStream()));
+        } catch (IOException e) {
+            System.out.println("Error Occured, failed to read input.");
+        }
     }
 }
