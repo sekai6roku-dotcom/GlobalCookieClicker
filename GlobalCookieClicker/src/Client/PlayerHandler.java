@@ -11,8 +11,13 @@ public class PlayerHandler implements Runnable {
     private Socket playerSocket;
     private CookieClicker game;
 
-    public PlayerHandler(Socket socket, CookieClicker main) {
+    public PlayerHandler(Socket socket, CookieClicker game) {
         playerSocket = socket;
-        game = main;
+        this.game = game;
+    }
+
+    @Override
+    public void run() {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(playerSocket.getInputStream()));
     }
 }
