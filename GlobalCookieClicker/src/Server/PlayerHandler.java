@@ -23,11 +23,11 @@ public class PlayerHandler implements Runnable {
             while ((line = reader.readLine()) != null) {
                 System.out.println("Player Input: " + line);
                 if (line.equals("click")) {
-                    game.click()
+                    game.click();
                 }
             }
         } catch (IOException e) {
-            System.out.println("Error Occured" + e.getMessage());
+            System.out.println("Error Occured: " + e.getMessage());
         }
     }
 }
