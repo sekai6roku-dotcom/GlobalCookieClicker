@@ -19,6 +19,13 @@ public class PlayerHandler implements Runnable {
     public void run() {
         try {
             BufferedReader reader = new BufferedReader(new InputStreamReader(playerSocket.getInputStream()));
+            String line;
+            while ((line = reader.readLine()) != null) {
+                System.out.println("Player Input: " + line);
+                if (line.equals("click")) {
+                    game.click()
+                }
+            }
         } catch (IOException e) {
             System.out.println("Error Occured" + e.getMessage());
         }

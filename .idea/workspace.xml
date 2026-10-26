@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad825bdd-dc8e-48eb-8e55-96afeedb867e" name="Changes" comment="hi">
-      <change beforePath="$PROJECT_DIR$/GlobalCookieClicker/src/Client/PlayerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/GlobalCookieClicker/src/Server/PlayerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlobalCookieClicker/src/Server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GlobalCookieClicker/src/Server/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlobalCookieClicker/src/Server/PlayerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/GlobalCookieClicker/src/Server/PlayerHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +61,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GlobalCookieClicker/src/Server" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ad825bdd-dc8e-48eb-8e55-96afeedb867e" name="Changes" comment="" />
@@ -91,7 +98,23 @@
       <option name="project" value="LOCAL" />
       <updated>1792957114103</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hi">
+      <option name="closed" value="true" />
+      <created>1792957473353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1792957473353</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hi">
+      <option name="closed" value="true" />
+      <created>1792957851676</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1792957851676</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
